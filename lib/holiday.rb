@@ -54,6 +54,14 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
+  # This is a challenging deliverable!
+  # Start by determining how to iterate through the holiday_hash to access all the 
+  # data you need for this deliverable. Then work on getting the formatting right.
+  # To capitalize the names of the holidays, you'll need to do the following:
+  # - Start with a name of the holiday as a symbol (:fourth_of_july)
+  # - Convert the symbol to a string ("fourth_of_july")
+  # - Replace each underscore with a space ("fourth of july")
+  # - Capitalize the first letter of each word ("Fourth Of July")
 end
 
 def all_holidays_with_bbq(holiday_hash)
